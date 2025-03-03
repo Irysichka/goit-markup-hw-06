@@ -43,12 +43,17 @@
           </li>
         </ul>
       </address>
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
     </div>
   </header>
   <!-- #endregion Header-->
   <main>
     <!-- #region Hero-->
-    <section class="hero">
+    <section class="hero hidden">
       <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
@@ -56,7 +61,7 @@
     </section>
     <!-- #endregion Hero-->
     <!-- #region Test-->
-    <section class="test section">
+    <section class="test section hidden">
       <div class="container test-container">
         <h2 class="test-title visually-hidden">Test</h2>
         <ul class="test-list">
@@ -113,7 +118,7 @@
     </section>
     <!-- #endregion Test-->
     <!-- #region Our Team-->
-    <section class="team section">
+    <section class="team section hidden">
       <div class="container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -262,7 +267,7 @@
     </section>
     <!-- #endregion Our Team-->
     <!-- #region Our Portfolio-->
-    <section class="portfolio section">
+    <section class="portfolio section hidden">
       <div class="container portfolio-container">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -350,7 +355,7 @@
     <!-- #endregion Our Portfolio-->
   </main>
   <!-- #region Footer-->
-  <footer class="footer">
+  <footer class="footer hidden">
     <div class="container footer-container">
       <div class="footer-cont">
         <a class="footer-logo" href="./index.html">Web<span class="footer-logo-style">Studio</span></a>
@@ -412,7 +417,7 @@
   <!-- #endregion Footer-->
 
   <!-- #region Backdrop-->
-  <div class="backdrop is-open">
+  <div class="backdrop is-open hidden">
     <div class="modal">
       <button class="close-btn" type="button">
         <svg class="close-btn-icon" width="8" height="8">
