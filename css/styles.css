@@ -659,11 +659,10 @@ img {
   .portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 72px;
+gap: 24px;
   }
 }
-@media screen and(max-width: 1157px) {
+@media screen and (max-width: 1157px) {
   .overlay{
     display: none;
   }
