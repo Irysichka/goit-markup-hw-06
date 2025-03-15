@@ -845,11 +845,10 @@ gap:16px;
   margin-left: 16px;
   fill:#fff;
 }
-
+@media screen and (min-width:768px) and (max-width:1157px){
+    .footer-container{
+      width: 584px;}}
 @media screen and (min-width:768px) {
-  .footer {
-      padding-left: 108px;
-    }
 .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -885,12 +884,11 @@ gap:24px;
 @media screen and (min-width:1158px){
  .footer{
   padding-top: 100px;
-  padding-left: 0;
     }
  .footer-container {
   flex-wrap: nowrap;
 column-gap: 0;
-padding-left:20px;
+
  }
  .footer-cont{
 margin-right: 120px;
